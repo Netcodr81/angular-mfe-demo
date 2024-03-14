@@ -3,13 +3,22 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aliceblue;
+  background-color: rgb(102, 156, 204);
+
 }
 
 nav a {
   color: black;
   text-decoration: none;
   margin: 0 10px;
+  font-weight: 500;
 
 }
+
+header {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
 

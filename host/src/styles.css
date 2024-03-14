@@ -1,5 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 /* You can add global styles to this file, and also import other style files */
+
+/* PrimeNG */
+
+@import "../../node_modules/primeng/resources/primeng.min.css";
+@import "../../node_modules/primeng/resources/themes/viva-light/theme.css";
+@import "../../node_modules/primeflex/primeflex.min.css";
+@import "../../node_modules/primeicons/primeicons.css";
+
+
 .wrapper {
   height: auto;
   padding: 20px;
@@ -15,12 +24,19 @@ html, body{
   box-sizing: border-box;
 }
 
-html,body,angular-mfe-demo-root{
+html,body, host-root{
   height: 100%;
 
 }
 
-angular-mfe-demo-root {
+host-root {
   display: flex;
   flex-direction: column;
+}
+
+.active {
+  color: white!important;
+  font-weight: bold!important;
+  margin-bottom:5px;
+  border-bottom: 2px solid white;
 }

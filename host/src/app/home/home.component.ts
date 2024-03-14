@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'angular-mfe-demo-home',
+  // eslint-disable-next-line @angular-eslint/component-selector
+  selector: 'host-home',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './home.component.html',

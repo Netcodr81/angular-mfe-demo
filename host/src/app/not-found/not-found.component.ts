@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'angular-mfe-demo-not-found',
+  // eslint-disable-next-line @angular-eslint/component-selector
+  selector: 'host-not-found',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './not-found.component.html',

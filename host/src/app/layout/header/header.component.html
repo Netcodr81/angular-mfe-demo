@@ -1,0 +1,11 @@
+<header>
+  <nav>
+    <a routerLink="/" [class.active]="activeRouteService.isActiveRoute('/')">Home</a>
+
+    <a routerLink="/todo" [class.active]="activeRouteService.isActiveRoute('/todo')">ToDo App</a>
+
+    <a routerLink="/dashboard" [class.active]="activeRouteService.isActiveRoute('/dashboard')">Dashboard App</a>
+
+    <a routerLink="/admin" [class.active]="activeRouteService.isActiveRoute('/admin')">Admin App</a>
+  </nav>
+</header>

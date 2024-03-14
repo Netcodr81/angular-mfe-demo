@@ -2,7 +2,7 @@
   "name": "host",
   "$schema": "../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "prefix": "angular-mfe-demo",
+  "prefix": "host",
   "sourceRoot": "host/src",
   "tags": [],
   "targets": {
